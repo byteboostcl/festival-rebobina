@@ -1,0 +1,14 @@
+<main class="poster">
+  <picture>
+    <source media="(min-width: 768px)" [srcset]="poster.desktop" />
+    <img
+      class="poster__img"
+      [class.is-loaded]="loaded()"
+      [src]="poster.mobile"
+      [alt]="poster.alt"
+      fetchpriority="high"
+      decoding="async"
+      (load)="onLoad()"
+    />
+  </picture>
+</main>

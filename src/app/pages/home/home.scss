@@ -1,0 +1,41 @@
+:host {
+  display: block;
+}
+
+.poster {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  min-height: 100dvh;
+  padding: 0;
+  background: var(--rb-bg, #f7f3ea);
+
+  picture {
+    display: contents;
+  }
+}
+
+.poster__img {
+  display: block;
+  width: 100%;
+  height: 100dvh;
+  object-fit: contain;
+  object-position: center;
+  opacity: 0;
+  transform: scale(1.01);
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease;
+
+  &.is-loaded {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .poster__img {
+    transition: none;
+    transform: none;
+  }
+}

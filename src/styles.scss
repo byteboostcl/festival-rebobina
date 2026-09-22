@@ -1,0 +1,25 @@
+/* Estilos globales — Festival Rebobina */
+
+:root {
+  --rb-bg: #f7f3ea;
+  --rb-ink: #101010;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--rb-bg);
+  color: var(--rb-ink);
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+}
