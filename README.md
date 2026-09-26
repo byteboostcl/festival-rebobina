@@ -3,7 +3,7 @@
 Sitio oficial de **REBOBINA · Festival de la Nostalgia**
 3 y 4 de abril de 2027 · Campo Marte, Ciudad de México.
 
-Fase actual: landing de *próximamente* — la home muestra únicamente el póster oficial,
+Fase actual: la home muestra únicamente el póster oficial de la edición 2027,
 con arte vertical en móvil y horizontal en escritorio.
 
 ## Stack

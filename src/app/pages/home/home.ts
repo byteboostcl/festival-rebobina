@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, signal } from '@angular/core';
 
 /**
- * Landing "próximamente" del Festival Rebobina.
+ * Landing del Festival Rebobina.
  * Por ahora solo muestra el póster oficial: versión vertical en móvil
  * y versión horizontal en escritorio, resueltas por <picture>.
  */
@@ -17,7 +17,7 @@ export class Home {
   protected readonly poster = {
     mobile: 'img/poster-mobile.jpg',
     desktop: 'img/poster-desktop.jpg',
-    alt: 'REBOBINA · Festival de la Nostalgia · 3 y 4 de abril 2027 · Campo Marte, Ciudad de México',
+    alt: 'Festival Rebobina, edición 2027 · Cinco décadas, infinitos recuerdos, un solo lugar · 3 y 4 de abril 2027 · Campo Marte, Ciudad de México',
   } as const;
 
   /** Se activa al cargar la imagen para el fade-in. */
